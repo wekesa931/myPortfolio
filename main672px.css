@@ -1,0 +1,116 @@
+/*Adjustements are made on various properties so as to attain responsiveness for different viewports.
+in this case, adjustement was done at 672 pixels*/
+body, 
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#header{
+  background-color: #fbfbfb;
+  width: 100%;
+  padding: 5px;
+ 
+}
+.logoImage{
+  width: 50%;
+}
+#myName{
+    float: right;
+    font-size: 2.8em;
+    margin-top: 19px;
+    margin-right: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    line-height: 32px;
+}
+#myWork{
+    float: right;
+    font-size: 1.5em;
+    margin-top: -67px;
+    margin-right: 25px;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 100;
+    line-height: 20px;
+}
+.intro_holder,.featured_holder1,.featured_holder3,.featured_holder2,footer,#contact{
+  width: 100%;
+}
+.mainImage{
+  width: 100%;
+  opacity: 0.7;
+}
+#introWordHolder{
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    margin-top: -197px;
+    padding-bottom: 10px;
+    opacity: 0.7;
+}
+#introWord{
+    color: white;
+    font-family: "Shadows Into Light";
+    text-align: center;
+    font-size: 2em;
+    padding: 20px 100px;
+}
+.websites{
+  width: 50%;
+}
+
+.rest-disc{
+  float: right;
+  width: 48%;
+  padding: 0.5px;
+  margin-top: -10px;
+}
+.school-disc{
+  float: left;
+}
+.siteInfo{
+   font-family: "Montserrat";
+   font-size: 1.2em;
+}
+
+.line{
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 5px;
+  background-color: rgb(0, 0, 0)
+}
+#aboutme{
+  margin-bottom: -2px;
+  font-size: 1em;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 100;
+  line-height: 20px;
+  margin-left: 20px;
+}
+.itsMe{
+  margin-top: -1px;
+  padding: 5px;
+  float: none;
+}
+.skills{
+  width: 30%;
+  float: left;
+  margin-top: 10px;
+  padding-right: 9px;
+}
+
+.github,.medium,.phone,.gmail{
+    width: 10%;
+    float: right;
+    margin-top: 10px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+}
